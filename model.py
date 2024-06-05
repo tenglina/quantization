@@ -1,6 +1,6 @@
 from collections import OrderedDict, defaultdict
 
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 import numpy as np
 from tqdm.auto import tqdm
@@ -8,8 +8,8 @@ from tqdm.auto import tqdm
 import torch
 from torch import nn
 
-assert torch.cuda.is_available(), \
-"The current runtime does not have CUDA support." 
+# assert torch.cuda.is_available(), \
+# "The current runtime does not have CUDA support." 
 
 
 class VGG(nn.Module):
