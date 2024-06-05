@@ -1,4 +1,3 @@
 # quantization
 
-
-K-Means Quantization vs Linear Quantization on Neural Networks 
+In this Repo, I perform K-means quantization and Linear Quantization from scratch. 
